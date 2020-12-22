@@ -1,3 +1,10 @@
+/*
+ * @Author: wangyz
+ * @Date: 2020-12-22 14:23:00
+ * @Description: file content
+ * @LastEditors: wangyz
+ * @LastEditTime: 2020-12-22 14:23:47
+ */
 module.exports = {
   root: false,
   env: {
@@ -15,6 +22,7 @@ module.exports = {
   },
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off"
+    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    "no-mixed-spaces-and-tabs": 0
   }
 };
